@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  gap: 5rem;
+}
+
+.x-logo {
+  width: 250px;
+  animation: spin 10s linear infinite;
+  transform-style: preserve-3d;
+}
+@keyframes spin {
+  0% {
+    transform: perspective(600px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(600px) rotateY(360deg);
+  }
+}
+.smart-logo {
+  width: 700px;
+}
