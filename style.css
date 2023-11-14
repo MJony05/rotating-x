@@ -11,11 +11,11 @@ body {
   align-items: center;
   align-content: center;
   height: 100vh;
-  gap: 5rem;
+  gap: 1rem;
 }
 
 .x-logo {
-  width: 250px;
+  width: 400px;
   animation: spin 10s linear infinite;
   transform-style: preserve-3d;
 }
@@ -28,5 +28,5 @@ body {
   }
 }
 .smart-logo {
-  width: 700px;
+  width: 550px;
 }
