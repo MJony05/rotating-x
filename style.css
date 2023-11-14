@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 body {
-  background-color: black;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
   height: 100vh;
-  gap: 1rem;
+  gap: 6rem;
 }
 
 .x-logo {
